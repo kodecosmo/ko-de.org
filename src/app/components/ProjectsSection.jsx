@@ -21,7 +21,7 @@ const projectsData = [
     description:
       "A space ticket booking application that was built for the tech-triatholon competition. This application has a user friendly UI and a smooth user experience with featues such as booking tickets based on planets and planet description for every planet mentioned.",
     image: "/images/projects/2.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Mobile"],
     gitUrl: "https://github.com/kodecosmo/Kode_CosmoVoyage",
     previewUrl: "https://github.com/kodecosmo/Kode_CosmoVoyage",
   },
@@ -85,7 +85,7 @@ const ProjectsSection = () => {
   return (
     <section id="projects">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
-        My Projects
+        Projects
       </h2>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         <ProjectTag

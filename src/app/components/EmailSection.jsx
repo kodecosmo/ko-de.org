@@ -51,13 +51,15 @@ const EmailSection = () => {
         </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           {" "}
-          We as team kode are always open to new ideas and collaborations. Feel free contact us for any inquiries. We accept all kinds of feedback and your peoject ideas as well.
+          We as team kode are always open to new ideas and collaborations. Feel
+          free contact us for any inquiries. We accept all kinds of feedback and
+          your peoject ideas as well.
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link href="github.com">
+          <Link href="github.com/kodecosmo">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
-          <Link href="linkedin.com">
+          <Link href="linkedin.com/in/kode">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
         </div>
@@ -65,7 +67,7 @@ const EmailSection = () => {
       <div>
         {emailSubmitted ? (
           <p className="text-green-500 text-sm mt-2">
-            Email sent successfully!
+            Email sent successfully! Someone from kode will contact you soon...
           </p>
         ) : (
           <form className="flex flex-col" onSubmit={handleSubmit}>
@@ -82,7 +84,7 @@ const EmailSection = () => {
                 id="email"
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="jacob@google.com"
+                placeholder="Hello@ko-de.com"
               />
             </div>
             <div className="mb-6">
@@ -98,7 +100,7 @@ const EmailSection = () => {
                 id="subject"
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="Just saying hi"
+                placeholder="Here's something intersting!"
               />
             </div>
             <div className="mb-6">
@@ -112,7 +114,7 @@ const EmailSection = () => {
                 name="message"
                 id="message"
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="Let's talk about..."
+                placeholder="Let's talk about it..."
               />
             </div>
             <button
