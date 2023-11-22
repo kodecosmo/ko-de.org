@@ -26,7 +26,7 @@ const TAB_DATA = [
         <li>Kaviru (CEO) - University of Colombo School of Computing</li>
         <li>Shakthi (COO) - University of Westminster</li>
         <li>Kenura (CTO) - University of Colombo School of Computing</li>
-        <li>Sadhavi (VP) - University of Colombo School of Computing</li>
+        <li>Sandhavi (VP) - University of Colombo School of Computing</li>
       </ul>
     ),
   },
@@ -36,7 +36,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>CodeBlast National Hackathon - Finalists</li>
-        <li>Dialog Innovation Challeneg</li>
+        <li>Dialog Innovation Challenge</li>
       </ul>
     ),
   },
