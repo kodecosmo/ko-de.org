@@ -26,7 +26,7 @@ const TAB_DATA = [
         <li>Kaviru (CEO) - University of Colombo School of Computing</li>
         <li>Shakthi (COO) - University of Westminster</li>
         <li>Kenura (CTO) - University of Colombo School of Computing</li>
-        <li>Sandhavi (VP) - University of Colombo School of Computing</li>
+        <li>Sandhavi (VP - Mobile Development) - University of Colombo School of Computing</li>
       </ul>
     ),
   },
