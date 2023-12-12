@@ -20,10 +20,6 @@ const navLinks = [
     title: "Contact",
     path: "#contact",
   },
-  {
-    title: "Register",
-    path: "/registration",
-  },
 ];
 
 const Navbar = () => {
